@@ -1,5 +1,6 @@
 .container {
-    width: 90%;
+    width: 80%;
+    height: vmax;
     margin:auto;
     display: flex;
     align-content: center;
@@ -7,6 +8,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.side-grid {
+    writing-mode: vertical-lr;
+}
 .rec {
     background-color: darkred;
     color: white;
@@ -21,12 +25,63 @@
     height: 2%;
 }
 
-#rec-2{
+#rec-2 {
     width: 8%;
     height: 2%;
 }
 
-#rec-3{
+/* #rec-2:hover {
+    width: 80%;
+    height: 20%;
+    background-color: aquamarine;
+} */
+
+#rec-3 {
     width: 22%;
     height: 2%;
+}
+
+#rec-4 {
+    width: 12%;
+    height: 8%;
+}
+
+#rec-5{
+    width: 8%;
+    height: 8%;
+}
+
+#rec-6 {
+    width: 22%;
+    height: 8vh;
+}
+
+#rec-7 {
+    width: 12%;
+    height: 6%;
+}
+
+#rec-8 {
+    width: 8%;
+    height: 6%;
+}
+
+#rec-9 {
+    width: 22%;
+    height: 6vh;
+}
+
+#rec-10 {
+    width: 12%;
+    height: 16%;
+}
+
+#rec-11 {
+    width: 8%;
+    height: 16%;
+}
+
+#rec-12 {
+    width: 22%;
+    height: 16vh;
 }
